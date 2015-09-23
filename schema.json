@@ -1,0 +1,175 @@
+{
+ "colectors":[
+ {
+  "colector_id": 1,
+  "filled_forms":[
+  { 
+   "creation_date":"20/12/32",
+   "name":"registro de ingreso",
+   "description": "registro de ingreso de personas al evento",
+   "form_id": "1",
+   "sections":[
+   {
+    "name": "datos personales",
+    "inputs":[
+    {
+      "type": "1",
+      "name": "nombre",
+      "description": "nombre de la persona",
+      "responses":[
+      {"value": "jhon buendia"}
+      ]
+
+      },
+      {
+        "type": "2",
+        "name": "telefonos",
+        "description": "telofonos personales",
+        "responses":[
+        {"value": "6685445"},
+        {"value": "3156658457"}
+        ]
+
+      }
+
+      ]
+    }
+    ]
+    
+
+    },
+
+    { 
+     "name":"registro de salidas",
+     "description": "registro de salida de personas al evento",
+     "form_id": "2",
+     "sections":[
+     {
+      "name": "datos personales",
+      "inputs":[
+      {
+        "type": "1",
+        "name": "nombre",
+        "description": "nombre de la persona",
+        "responses":[
+        {"value": "jhon buendia"}
+        ]
+
+        },
+        {
+          "type": "1",
+          "name": "comentarios",
+          "description": "comentarios de su experiencia en el evento",
+          "responses":[
+          {"value": "el evento me parecio excelente"}
+          ]
+
+          },
+          {
+            "type": "2",
+            "name": "artistas_favoritos",
+            "description": "artistas favoritos del evento",
+            "responses":[
+            {"value": "juanes"},
+            {"value": "shakira"}
+            ]
+
+          }
+
+          ]
+        }
+        ]
+        
+
+      }
+
+      ]
+      },
+
+      {
+        "colector_id": 2,
+        "filled_forms":[
+        { 
+         "creation_date":"20/12/32",
+         "name":"registro de ingreso",
+         "description": "registro de ingreso de personas al evento",
+         "form_id": "1",
+         "sections":[
+         {
+          "name": "datos personales",
+          "inputs":[
+          {
+            "type": "1",
+            "name": "nombre",
+            "description": "nombre de la persona",
+            "responses":[
+            {"value": "andres buitrago"}
+            ]
+
+            },
+            {
+              "type": "2",
+              "name": "telefonos",
+              "description": "telofonos personales",
+              "responses":[
+              {"value": "785548"},
+              {"value": "3156658457"}
+              ]
+
+            }
+
+            ]
+          }
+          ]
+          
+
+          },
+
+          { 
+           "name":"registro de salidas",
+           "description": "registro de salida de personas al evento",
+           "form_id": "2",
+           "sections":[
+           {
+            "name": "datos personales",
+            "inputs":[
+            {
+              "type": "1",
+              "name": "nombre",
+              "description": "nombre de la persona",
+              "responses":[
+              {"value": "jhon buendia"}
+              ]
+
+              },
+              {
+                "type": "1",
+                "name": "comentarios",
+                "description": "comentarios de su experiencia en el evento",
+                "responses":[
+                {"value": "el evento me parecio excelente"}
+                ]
+
+                },
+                {
+                  "type": "2",
+                  "name": "artistas_favoritos",
+                  "description": "artistas favoritos del evento",
+                  "responses":[
+                  {"value": "juanes"},
+                  {"value": "shakira"}
+                  ]
+
+                }
+
+                ]
+              }
+              ]
+              
+
+            }
+
+            ]
+          }
+          ]
+        }

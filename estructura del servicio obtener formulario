@@ -1,0 +1,82 @@
+estructura del servicio
+
+pedido
+	informacion personal
+		persona	
+			descripcion
+			tipo
+			nombre
+			formulario_asociado: 6
+			formularios_diligenciados
+				[	{
+						"sku": "jhon",
+						"nombre": "1234"
+
+					},
+					{
+						"nombre": "andres",
+						"cedula": "1654"
+					},
+				]
+
+
+	informacion del producto
+		producto
+			descripcion
+			tipo
+			nombre
+			formulario_asociado : 8
+			formularios_diligenciados
+				[	{
+						"sku": "5458",
+						"nombre": "computador portatil",
+						"proveedor": "hp"
+					},
+					{
+						"sku": "55658",
+						"nombre": "computador all in one",
+						"proveedor": "compaq"
+					},
+				]
+
+
+
+
+estructura del cliente
+
+pedido : id: xxx
+	informacion personal
+		personal
+			<input name="persona"> auto completar a la persona *1234*</input>
+				<div id="informacion-adicional"> 
+					{
+						"nombre": "jhon",
+						"cedula": "1234"
+					}
+				</div>
+			
+			
+		
+
+	informacion del productos
+		producto 
+			<p>Seleccione el filtro que desea utilizar</p>
+
+			<select for tag in formularios_diligencaidos.keys >
+				<option value=tag.key></option>
+				<option value=tag.key></option>
+				<option value=tag.key></option>
+			</select>
+			<input name="producto"> auto completar el producto *1234*</input>
+				<div id="informacion-adicional"> 
+					{
+						"sku": "5458",
+						"nombre": "computador portatil",
+						"proveedor": "hp"
+					},
+					{
+						"sku": "55658",
+						"nombre": "computador all in one",
+						"proveedor": "compaq"
+					},
+				</div>
